@@ -38,5 +38,8 @@ section .container #mouse {
 section .container #left__content {
   display: none;
 }
+section .container #left__side__small {
+  display: none;
+}
 
 /*# sourceMappingURL=style.css.map */
