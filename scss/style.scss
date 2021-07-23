@@ -18,17 +18,13 @@ section {
             // display: none;
             opacity: 0;
         }
-        // big list
-        #big__list {
-            display: none;
-        }
         // bubble items
         #bubble {
             display: none;
         }
         // half circle
         #half__circle {
-            display: none;
+            opacity: 0;
         }
         // intro line
         #intro__line {
@@ -42,9 +38,7 @@ section {
             stroke-dashoffset: 0;
         }
         // mouse
-        #mouse {
-            display: none;
-        }
+        
         // left content
         #left__content {
             opacity: 1;
@@ -80,5 +74,13 @@ section {
         #screen__bg {
             opacity: 0;
         }
+        // content list 
+        #secound__content, #world, #forward__list, #massage__list, #mouse {
+            opacity: 0;
+        }
+        // big list 
+         #big__list {
+             opacity: 1;
+         }
     }
 }

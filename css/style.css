@@ -17,14 +17,11 @@ section .container #long__list {
 section .container #screen__cover {
   opacity: 0;
 }
-section .container #big__list {
-  display: none;
-}
 section .container #bubble {
   display: none;
 }
 section .container #half__circle {
-  display: none;
+  opacity: 0;
 }
 section .container #intro__line {
   stroke-dasharray: 125;
@@ -34,9 +31,6 @@ section .container #intro__line {
 section .container #bottom__line {
   stroke-dasharray: 1000;
   stroke-dashoffset: 0;
-}
-section .container #mouse {
-  display: none;
 }
 section .container #left__content {
   opacity: 1;
@@ -60,6 +54,12 @@ section .container #computer .mask {
 }
 section .container #screen__bg {
   opacity: 0;
+}
+section .container #secound__content, section .container #world, section .container #forward__list, section .container #massage__list, section .container #mouse {
+  opacity: 0;
+}
+section .container #big__list {
+  opacity: 1;
 }
 
 /*# sourceMappingURL=style.css.map */

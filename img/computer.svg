@@ -1,158 +1,16 @@
-<svg width="860" height="904" viewBox="0 0 860 904" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="svg">
-<path id="half-circle" d="M728 596.5C728 524.494 699.396 455.437 648.479 404.521C597.563 353.604 528.506 325 456.5 325C384.494 325 315.437 353.604 264.521 404.52C213.604 455.437 185 524.494 185 596.5L456.5 596.5H728Z" fill="#F72585" fill-opacity="0.3"/>
-<rect id="back-cover" x="274" y="264" width="365" height="201" rx="3" fill="#E5E9F7"/>
-<g id="computer-content">
-<g id="long-card-list">
-<line id="Line 49" x1="450.212" y1="875.5" x2="500.222" y2="875.5" stroke="black" stroke-width="2"/>
-<line id="Line 51" x1="555.212" y1="875" x2="605.222" y2="875" stroke="black" stroke-width="2"/>
-<line id="Line 53" x1="450.212" y1="883" x2="500.222" y2="883" stroke="black" stroke-width="2"/>
-<line id="Line 55" x1="555.212" y1="882.5" x2="605.222" y2="882.5" stroke="black" stroke-width="2"/>
-<line id="Line 57" x1="450.212" y1="891" x2="500.222" y2="891" stroke="black" stroke-width="2"/>
-<line id="Line 59" x1="555.212" y1="890.5" x2="605.222" y2="890.5" stroke="black" stroke-width="2"/>
-<path id="Line 13" d="M431.212 308.589H635.505" stroke="black" stroke-width="3"/>
-<path id="Line 14" d="M430.212 365.434H616.839" stroke="black" stroke-width="3"/>
-<path id="Line 16" d="M475.997 337.24H609.203" stroke="black" stroke-width="3"/>
-<rect id="Rectangle 14" x="463.074" y="328.558" width="157.356" height="18.2111" rx="3.5" stroke="black" stroke-width="3"/>
-<rect id="Rectangle 16" x="431.712" y="278.5" width="189" height="18" rx="3.5" stroke="black" stroke-width="3"/>
-<rect id="Rectangle 17" x="437.152" y="378.965" width="73.5115" height="84.5413" rx="4" stroke="black" stroke-width="2"/>
-<rect id="Rectangle 19" x="437.152" y="488.414" width="73.5115" height="84.5413" rx="4" stroke="black" stroke-width="2"/>
-<rect id="Rectangle 23" x="437.152" y="708.161" width="73.5115" height="84.5413" rx="4" stroke="black" stroke-width="2"/>
-<rect id="Rectangle 21" x="437.152" y="598.712" width="73.5115" height="84.5413" rx="4" stroke="black" stroke-width="2"/>
-<rect id="Rectangle 24" x="437.152" y="818.459" width="73.5115" height="84.5413" rx="4" stroke="black" stroke-width="2"/>
-<rect id="Rectangle 18" x="542.359" y="378.965" width="73.5115" height="84.5413" rx="4" stroke="black" stroke-width="2"/>
-<rect id="Rectangle 20" x="542.359" y="488.414" width="73.5115" height="84.5413" rx="4" stroke="black" stroke-width="2"/>
-<rect id="Rectangle 25" x="542.359" y="708.161" width="73.5115" height="84.5413" rx="4" stroke="black" stroke-width="2"/>
-<rect id="Rectangle 22" x="542.359" y="598.712" width="73.5115" height="84.5413" rx="4" stroke="black" stroke-width="2"/>
-<rect id="Rectangle 26" x="542.359" y="818.459" width="73.5115" height="84.5413" rx="4" stroke="black" stroke-width="2"/>
-<line id="Line 20" x1="448.833" y1="424.675" x2="498.982" y2="424.675" stroke="black" stroke-width="5" stroke-linecap="round"/>
-<line id="Line 28" x1="448.833" y1="534.124" x2="498.982" y2="534.124" stroke="black" stroke-width="5" stroke-linecap="round"/>
-<line id="Line 44" x1="448.833" y1="753.871" x2="498.982" y2="753.871" stroke="black" stroke-width="5" stroke-linecap="round"/>
-<line id="Line 36" x1="448.833" y1="644.422" x2="498.982" y2="644.422" stroke="black" stroke-width="5" stroke-linecap="round"/>
-<line id="Line 45" x1="448.833" y1="864.168" x2="498.982" y2="864.168" stroke="black" stroke-width="5" stroke-linecap="round"/>
-<line id="Line 24" x1="554.04" y1="424.675" x2="604.189" y2="424.675" stroke="black" stroke-width="5" stroke-linecap="round"/>
-<line id="Line 29" x1="554.04" y1="534.124" x2="604.189" y2="534.124" stroke="black" stroke-width="5" stroke-linecap="round"/>
-<line id="Line 46" x1="554.04" y1="753.871" x2="604.189" y2="753.871" stroke="black" stroke-width="5" stroke-linecap="round"/>
-<line id="Line 37" x1="554.04" y1="644.422" x2="604.189" y2="644.422" stroke="black" stroke-width="5" stroke-linecap="round"/>
-<line id="Line 47" x1="554.04" y1="864.168" x2="604.189" y2="864.168" stroke="black" stroke-width="5" stroke-linecap="round"/>
-<line id="Line 21" x1="453.969" y1="435.932" x2="496.4" y2="435.932" stroke="black" stroke-width="2"/>
-<line id="Line 30" x1="453.969" y1="545.381" x2="496.4" y2="545.381" stroke="black" stroke-width="2"/>
-<line id="Line 48" x1="453.969" y1="765.128" x2="496.4" y2="765.128" stroke="black" stroke-width="2"/>
-<line id="Line 38" x1="453.969" y1="655.679" x2="496.4" y2="655.679" stroke="black" stroke-width="2"/>
-<line id="Line 25" x1="559.176" y1="435.932" x2="601.607" y2="435.932" stroke="black" stroke-width="2"/>
-<line id="Line 31" x1="559.176" y1="545.381" x2="601.607" y2="545.381" stroke="black" stroke-width="2"/>
-<line id="Line 50" x1="559.176" y1="765.128" x2="601.607" y2="765.128" stroke="black" stroke-width="2"/>
-<line id="Line 39" x1="559.176" y1="655.679" x2="601.607" y2="655.679" stroke="black" stroke-width="2"/>
-<line id="Line 22" x1="453.969" y1="442.295" x2="496.4" y2="442.295" stroke="black" stroke-width="2"/>
-<line id="Line 32" x1="453.969" y1="551.744" x2="496.4" y2="551.744" stroke="black" stroke-width="2"/>
-<line id="Line 52" x1="453.969" y1="771.491" x2="496.4" y2="771.491" stroke="black" stroke-width="2"/>
-<line id="Line 40" x1="453.969" y1="662.042" x2="496.4" y2="662.042" stroke="black" stroke-width="2"/>
-<line id="Line 26" x1="559.176" y1="442.295" x2="601.607" y2="442.295" stroke="black" stroke-width="2"/>
-<line id="Line 33" x1="559.176" y1="551.744" x2="601.607" y2="551.744" stroke="black" stroke-width="2"/>
-<line id="Line 54" x1="559.176" y1="771.491" x2="601.607" y2="771.491" stroke="black" stroke-width="2"/>
-<line id="Line 41" x1="559.176" y1="662.042" x2="601.607" y2="662.042" stroke="black" stroke-width="2"/>
-<line id="Line 23" x1="453.969" y1="449.083" x2="496.4" y2="449.083" stroke="black" stroke-width="2"/>
-<line id="Line 34" x1="453.969" y1="558.532" x2="496.4" y2="558.532" stroke="black" stroke-width="2"/>
-<line id="Line 56" x1="453.969" y1="778.279" x2="496.4" y2="778.279" stroke="black" stroke-width="2"/>
-<line id="Line 42" x1="453.969" y1="668.829" x2="496.4" y2="668.829" stroke="black" stroke-width="2"/>
-<line id="Line 27" x1="559.176" y1="449.083" x2="601.607" y2="449.083" stroke="black" stroke-width="2"/>
-<line id="Line 35" x1="559.176" y1="558.532" x2="601.607" y2="558.532" stroke="black" stroke-width="2"/>
-<line id="Line 58" x1="559.176" y1="778.279" x2="601.607" y2="778.279" stroke="black" stroke-width="2"/>
-<line id="Line 43" x1="559.176" y1="668.829" x2="601.607" y2="668.829" stroke="black" stroke-width="2"/>
-</g>
-<g id="computer-list-1-2">
-<rect id="Rectangle 10" x="287.5" y="301.5" width="77" height="39" rx="3.5" stroke="black" stroke-width="3"/>
-<g id="Group 7">
-<rect id="Rectangle 9" x="275.5" y="264.5" width="101" height="198" stroke="black"/>
-<path id="Line 5" d="M319.947 313.5H343" stroke="black" stroke-width="3"/>
-<path id="Line 6" d="M318 327.5H353" stroke="black" stroke-width="3"/>
-<rect id="Rectangle 11" x="287.5" y="370.5" width="77" height="39" rx="3.5" stroke="black" stroke-width="3"/>
-<path id="Line 10" d="M329.421 390H352.579" stroke="black" stroke-width="3"/>
-<line id="Line 16_2" x1="286" y1="285.5" x2="351" y2="285.5" stroke="black" stroke-width="3"/>
-</g>
-</g>
-<g id="computer-list-1-1">
-<g id="Group 5">
-<line id="Line 13_2" x1="377" y1="315.5" x2="639" y2="315.5" stroke="black" stroke-width="3"/>
-</g>
-<g id="Group 6">
-<line id="Line 14_2" x1="406" y1="385.5" x2="617" y2="385.5" stroke="black" stroke-width="3"/>
-<path id="Line 15" d="M406 448.5H546M571 448.5H618" stroke="black" stroke-width="3"/>
-<rect id="Rectangle 14_2" x="407.5" y="405.5" width="88" height="22" rx="3.5" stroke="black" stroke-width="3"/>
-<rect id="Rectangle 15" x="513.5" y="405.5" width="88" height="22" rx="3.5" stroke="black" stroke-width="3"/>
-</g>
-<g id="Group 4">
-<rect id="Rectangle 13" x="407.5" y="329.5" width="189" height="36" rx="3.5" stroke="black" stroke-width="3"/>
-<line id="Line 17" x1="425" y1="348.5" x2="573" y2="348.5" stroke="black" stroke-width="3"/>
-</g>
-</g>
-<g id="computer-list-2">
-<rect id="Rectangle 9_2" x="275.5" y="265.5" width="143" height="196" rx="3.5" stroke="black" stroke-width="3"/>
-<line id="Line 18" x1="273.979" y1="322.5" x2="419.979" y2="320.5" stroke="black" stroke-width="3"/>
-<g id="Group 12">
-<path id="Line 19" d="M327 347.5L396 347.5" stroke="black" stroke-width="3"/>
-</g>
-<g id="Group 14">
-<path id="Line 19_2" d="M327 403.5L396 403.5" stroke="black" stroke-width="3"/>
-</g>
-<g id="Group 13">
-<path id="Line 19_3" d="M326 375.5L395 375.5" stroke="black" stroke-width="3"/>
-</g>
-<g id="Group 15">
-<path id="Line 19_4" d="M326 431.5L395 431.5" stroke="black" stroke-width="3"/>
-</g>
-</g>
-</g>
+<svg width="394" height="345" viewBox="0 0 394 345" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="computer">
 <g id="computer_2">
-<rect id="Rectangle 6" x="417" y="488" width="79" height="97" fill="#7393DF" stroke="#A68A8A" stroke-width="2"/>
-<path id="Rectangle 7" d="M365 588C365 581.925 369.925 577 376 577H536C542.075 577 547 581.925 547 588V594H365V588Z" fill="#7393DF" stroke="#A68A8A" stroke-width="2"/>
+<rect id="Rectangle 6" x="158" y="238" width="79" height="97" fill="#7393DF" stroke="#A68A8A" stroke-width="2"/>
+<path id="Rectangle 7" d="M106 338C106 331.925 110.925 327 117 327H277C283.075 327 288 331.925 288 338V344H106V338Z" fill="#7393DF" stroke="#A68A8A" stroke-width="2"/>
 <g id="Exclude">
-<mask id="path-80-inside-1" fill="white">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M267 250C262.582 250 259 253.582 259 258V478.459H652V258C652 253.582 648.418 250 644 250H267ZM276.962 263.141C275.305 263.141 273.962 264.485 273.962 266.141V461.307C273.962 462.964 275.305 464.307 276.962 464.307H635.036C636.692 464.307 638.036 462.964 638.036 461.307V266.141C638.036 264.485 636.692 263.141 635.035 263.141H276.962Z"/>
+<mask id="path-3-inside-1" fill="white">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58172 0 0 3.58173 0 8.00001V228.459H393V8C393 3.58172 389.418 0 385 0H8ZM17.9619 13.1414C16.3051 13.1414 14.9619 14.4846 14.9619 16.1415V211.307C14.9619 212.964 16.3051 214.307 17.9619 214.307H376.036C377.692 214.307 379.036 212.964 379.036 211.307V16.1414C379.036 14.4846 377.692 13.1414 376.035 13.1414H17.9619Z"/>
 </mask>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M267 250C262.582 250 259 253.582 259 258V478.459H652V258C652 253.582 648.418 250 644 250H267ZM276.962 263.141C275.305 263.141 273.962 264.485 273.962 266.141V461.307C273.962 462.964 275.305 464.307 276.962 464.307H635.036C636.692 464.307 638.036 462.964 638.036 461.307V266.141C638.036 264.485 636.692 263.141 635.035 263.141H276.962Z" fill="#0AE0E0"/>
-<path d="M259 478.459H257V480.459H259V478.459ZM652 478.459V480.459H654V478.459H652ZM261 258C261 254.686 263.686 252 267 252V248C261.477 248 257 252.477 257 258H261ZM261 478.459V258H257V478.459H261ZM652 476.459H259V480.459H652V476.459ZM650 258V478.459H654V258H650ZM644 252C647.314 252 650 254.686 650 258H654C654 252.477 649.523 248 644 248V252ZM267 252H644V248H267V252ZM275.962 266.141C275.962 265.589 276.41 265.141 276.962 265.141V261.141C274.201 261.141 271.962 263.38 271.962 266.141H275.962ZM275.962 461.307V266.141H271.962V461.307H275.962ZM276.962 462.307C276.41 462.307 275.962 461.859 275.962 461.307H271.962C271.962 464.068 274.201 466.307 276.962 466.307V462.307ZM635.036 462.307H276.962V466.307H635.036V462.307ZM636.036 461.307C636.036 461.859 635.588 462.307 635.036 462.307V466.307C637.797 466.307 640.036 464.068 640.036 461.307H636.036ZM636.036 266.141V461.307H640.036V266.141H636.036ZM635.035 265.141C635.588 265.141 636.036 265.589 636.036 266.141H640.036C640.036 263.38 637.797 261.141 635.035 261.141V265.141ZM276.962 265.141H635.035V261.141H276.962V265.141Z" fill="#212837" fill-opacity="0.11" mask="url(#path-80-inside-1)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58172 0 0 3.58173 0 8.00001V228.459H393V8C393 3.58172 389.418 0 385 0H8ZM17.9619 13.1414C16.3051 13.1414 14.9619 14.4846 14.9619 16.1415V211.307C14.9619 212.964 16.3051 214.307 17.9619 214.307H376.036C377.692 214.307 379.036 212.964 379.036 211.307V16.1414C379.036 14.4846 377.692 13.1414 376.035 13.1414H17.9619Z" fill="#0AE0E0"/>
+<path d="M0 228.459H-2V230.459H0V228.459ZM393 228.459V230.459H395V228.459H393ZM2 8.00001C2 4.6863 4.68629 2 8 2V-2C2.47715 -2 -2 2.47716 -2 8.00001H2ZM2 228.459V8.00001H-2V228.459H2ZM393 226.459H0V230.459H393V226.459ZM391 8V228.459H395V8H391ZM385 2C388.314 2 391 4.68629 391 8H395C395 2.47715 390.523 -2 385 -2V2ZM8 2H385V-2H8V2ZM16.9619 16.1415C16.9619 15.5892 17.4097 15.1414 17.9619 15.1414V11.1414C15.2005 11.1414 12.9619 13.38 12.9619 16.1415H16.9619ZM16.9619 211.307V16.1415H12.9619V211.307H16.9619ZM17.9619 212.307C17.4097 212.307 16.9619 211.859 16.9619 211.307H12.9619C12.9619 214.068 15.2005 216.307 17.9619 216.307V212.307ZM376.036 212.307H17.9619V216.307H376.036V212.307ZM377.036 211.307C377.036 211.859 376.588 212.307 376.036 212.307V216.307C378.797 216.307 381.036 214.068 381.036 211.307H377.036ZM377.036 16.1414V211.307H381.036V16.1414H377.036ZM376.035 15.1414C376.588 15.1414 377.036 15.5892 377.036 16.1414H381.036C381.036 13.38 378.797 11.1414 376.035 11.1414V15.1414ZM17.9619 15.1414H376.035V11.1414H17.9619V15.1414Z" fill="#212837" fill-opacity="0.11" mask="url(#path-3-inside-1)"/>
 </g>
-<path id="Exclude_2" fill-rule="evenodd" clip-rule="evenodd" d="M267 250C262.582 250 259 253.582 259 258V529C259 533.418 262.582 537 267 537H645C649.418 537 653 533.418 653 529V258C653 253.582 649.418 250 645 250H267ZM269 252C264.582 252 261 255.582 261 260V469C261 473.418 264.582 477 269 477H643C647.418 477 651 473.418 651 469V260C651 255.582 647.418 252 643 252H269Z" fill="#7393DF"/>
-</g>
-</g>
-<line id="Line 1" x1="89.5" y1="596.5" x2="822.506" y2="596.5" stroke="#56227C" stroke-width="5" stroke-linecap="round"/>
-<g id="intro">
-<line id="Line 2" x1="461" y1="695.5" x2="558.046" y2="695.5" stroke="#56227C" stroke-width="5"/>
-<line id="Line 3" x1="648" y1="624.5" x2="745.046" y2="624.5" stroke="#56227C" stroke-width="5"/>
-<line id="Line 4" x1="234" y1="656.5" x2="331.046" y2="656.5" stroke="#56227C" stroke-width="5"/>
-</g>
-<path id="mouse" fill-rule="evenodd" clip-rule="evenodd" d="M712.343 305.062C711.619 304.798 710.882 305.417 711.016 306.175L713.817 322.06C713.95 322.818 714.855 323.147 715.444 322.652L719.515 319.237L724.263 324.895L727.968 321.786L723.22 316.128L727.801 312.284C728.39 311.789 728.223 310.842 727.5 310.579L712.343 305.062Z" fill="#9E068F"/>
-<g id="big-card">
-<rect id="Rectangle 27" x="395" y="282" width="133" height="164" rx="4" stroke="black" stroke-width="2"/>
-<path id="Line 60" d="M419.5 358.5H500" stroke="black" stroke-width="5" stroke-linecap="round"/>
-<g id="Group 16">
-<path id="Line 62" d="M405 389H516.5" stroke="black" stroke-width="2"/>
-<path id="Line 64" d="M406 400H517.5" stroke="black" stroke-width="2"/>
-<path id="Line 63" d="M406 378H517.5" stroke="black" stroke-width="2"/>
-</g>
-<path id="Vector" d="M475.25 332.875C476.969 332.875 478.359 331.469 478.359 329.75L478.375 314.125C478.375 312.391 476.969 311 475.25 311H450.25C448.516 311 447.125 312.391 447.125 314.125V329.75C447.125 331.469 448.516 332.875 450.25 332.875H444V336H481.5V332.875H475.25ZM464.312 327.359V323.938C459.969 323.938 457.109 325.266 454.938 328.188C455.812 324.016 458.234 319.859 464.312 319.016V315.688L470.562 321.516L464.312 327.359Z" fill="black"/>
-<rect id="Rectangle 28" x="435" y="417" width="46.4286" height="10" rx="3" fill="#2C1C1C"/>
-</g>
-<g id="bubble">
-<circle id="Ellipse 2" cx="103.5" cy="208.5" r="20.5" fill="#82C0CC"/>
-<circle id="Ellipse 8" cx="320" cy="160" r="11" fill="#17BEBB"/>
-<circle id="Ellipse 7" cx="468.5" cy="133.5" r="26.5" fill="#FF70A6"/>
-<circle id="Ellipse 13" cx="443" cy="19" r="19" fill="#9C4206"/>
-<circle id="Ellipse 12" cx="17" cy="470" r="17" fill="#FFA62B"/>
-<circle id="Ellipse 11" cx="842.5" cy="446.5" r="17.5" fill="#FFD670"/>
-<circle id="Ellipse 9" cx="578.5" cy="177.5" r="17.5" fill="#A01A7D"/>
-<circle id="Ellipse 6" cx="159.5" cy="390.5" r="20.5" fill="#16697A"/>
-<circle id="Ellipse 5" cx="760.5" cy="159.5" r="11.5" fill="#489FB5"/>
-<circle id="Ellipse 4" cx="781.5" cy="281.5" r="20.5" fill="#FF9770"/>
-<circle id="Ellipse 10" cx="668.5" cy="76.5" r="20.5" fill="#E9FF70"/>
-<circle id="Ellipse 3" cx="233.5" cy="71.5" r="15.5" fill="#70D6FF"/>
-</g>
-<g id="intro-cover">
-<rect id="Rectangle 30" x="273" y="263" width="366" height="202" rx="5" fill="#FADDE1"/>
-<rect id="Rectangle 31" x="273" y="262" width="366" height="163" rx="5" fill="#FFC4D6"/>
-<rect id="Rectangle 32" x="273" y="262" width="366" height="123" rx="5" fill="#FF97B7"/>
+<path id="Exclude_2" fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58172 0 0 3.58173 0 8.00001V279C0 283.418 3.58172 287 8 287H386C390.418 287 394 283.418 394 279V8C394 3.58172 390.418 0 386 0H8ZM10 2C5.58172 2 2 5.58172 2 10V219C2 223.418 5.58172 227 10 227H384C388.418 227 392 223.418 392 219V10C392 5.58172 388.418 2 384 2H10Z" fill="#7393DF"/>
 </g>
 </g>
 </svg>

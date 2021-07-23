@@ -86,17 +86,81 @@ tl.from("#intro__line", {
         },
         "-=1.5"
     )
-    .from("#left__content", {
-        opacity: 0,
-        stroke: "transparent",
-        x: -20,
-    })
-    .from(gsap.utils.toArray(["#left__content rect","#left__content path"]), {
-        width: 0,
-        height: 0,
-        opacity: 0,
-        stagger: {
-            amount: 1
-        }
+    .fromTo(
+        "#half__circle",
+        {
+            opacity: 0,
+            scale: 0.2,
+            x: 150,
+            y: 220,
+        },
+        {
+            opacity: 1,
+            scale: 1,
+            x: 0,
+            y: 0,
+            duration: 1.3,
+        },
+        "-=0"
+);
+    
+
+// mouse click 
+function mouseClick() {
+    gsap.to("#mouse", {
+        scale: 0.8,
+        duration: 0.4,
     });
-// tl.
+    gsap.to("#mouse", {
+        scale: 1,
+        duration: 0.4,
+        delay: 0.4,
+    });
+}
+
+// secound timeline 
+
+const secounTl = gsap.timeline();
+secounTl
+    .from(
+        "#content__list .list",
+        {
+            x: 20,
+            y: 20,
+            scale: 0.5,
+            opacity: 0,
+            stagger: {
+                amount: 1.5,
+            },
+            duration: 1,
+            delay: 6,
+        },
+        "-=0.5"
+    )
+    .to("#mouse", {
+        opacity: 1,
+        duration: 0.5,
+    })
+    .to("#mouse", {
+        x: -230,
+        y: 100,
+        duration: 1.5,
+        onComplete: function () {
+            mouseClick();
+        },
+    })
+    .to("#content__list", {
+        opacity: 0.4,
+        duration: 0.5,
+    })
+    .from("#big__list", {
+        x: -50,
+        y: 50,
+        scale: 0.7,
+        opacity: 0,
+    })
+    .to("#mouse", {
+        x: "-=30",
+        y: "+=15",
+        duration: 0.4,
+    });
