@@ -1,3 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+section {
+  width: 100%;
+}
+section .container {
+  width: 50%;
+  margin: 75px auto 0px auto;
+}
+section .container #long__list {
+  display: none;
+}
+section .container #screen__cover {
+  display: none;
+}
+section .container #big__list {
+  display: none;
+}
+section .container #bubble {
+  display: none;
+}
+section .container #half__circle {
+  display: none;
+}
+section .container #intro__line {
+  display: none;
+}
+section .container #bottom__line {
+  display: none;
+}
+section .container #mouse {
+  display: none;
+}
+section .container #left__content {
+  display: none;
+}
 
 /*# sourceMappingURL=style.css.map */

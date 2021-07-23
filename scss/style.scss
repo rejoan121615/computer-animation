@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    width: 100%;
+    .container {
+        width: 50%;
+        margin: 75px auto 0px auto;
+        // long list 
+        #long__list {
+            display: none;
+        }
+        // screen cover 
+        #screen__cover {
+            display: none;
+        }
+        // big list 
+        #big__list {
+            display: none;
+        }
+        // bubble items 
+        #bubble {
+            display: none;
+        }
+        // half circle 
+        #half__circle {
+            display: none;
+        }
+        // intro line 
+        #intro__line {
+            display: none;
+        }
+        // bottom line 
+        #bottom__line {
+            display: none;
+        }
+        // mouse 
+        #mouse {
+            display: none;
+        }
+        // left content 
+        #left__content {
+            display: none;
+        }
+    }
+}
