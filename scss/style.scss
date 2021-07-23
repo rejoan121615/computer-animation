@@ -9,45 +9,76 @@ section {
     .container {
         width: 50%;
         margin: 75px auto 0px auto;
-        // long list 
+        // long list
         #long__list {
             display: none;
         }
-        // screen cover 
+        // screen cover
         #screen__cover {
-            display: none;
+            // display: none;
+            opacity: 0;
         }
-        // big list 
+        // big list
         #big__list {
             display: none;
         }
-        // bubble items 
+        // bubble items
         #bubble {
             display: none;
         }
-        // half circle 
+        // half circle
         #half__circle {
             display: none;
         }
-        // intro line 
+        // intro line
         #intro__line {
-            display: none;
+            stroke-dasharray: 125;
+            stroke-dashoffset: 0;
+            transform: translateX(100%);
         }
-        // bottom line 
+        // bottom line
         #bottom__line {
-            display: none;
+            stroke-dasharray: 1000;
+            stroke-dashoffset: 0;
         }
-        // mouse 
+        // mouse
         #mouse {
             display: none;
         }
-        // left content 
+        // left content
         #left__content {
-            display: none;
+            opacity: 1;
+            stroke: #ce4257;
+            rect {
+
+            }
         }
-        // left list small 
+        // left list small
         #left__side__small {
             display: none;
+        }
+        // right content
+        #right__content {
+            // display: none;
+            opacity: 0;
+        }
+        // computer
+        #computer {
+            // display: none;
+            .border {
+                stroke: #0ae0e0;
+                stroke-width: 2.5px;
+                stroke-dasharray: 1250;
+                stroke-dashoffset: 0;
+                fill: transparent;
+            }
+            .mask {
+                display: none;
+            }
+        }
+        // screen background
+        #screen__bg {
+            opacity: 0;
         }
     }
 }

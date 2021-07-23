@@ -12,7 +12,7 @@
             <div class="container">
                 <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 904">
                 <path id="half__circle" d="M728 596.5a271.496 271.496 0 00-79.521-191.979 271.496 271.496 0 00-383.958-.001A271.5 271.5 0 00185 596.5h543z" fill="#F72585" fill-opacity=".3"/>
-                <rect x="274" y="264" width="365" height="201" rx="3" fill="#E5E9F7"/>
+                <rect id="screen__bg" x="274" y="264" width="365" height="201" rx="3" fill="#E5E9F7"/>
                 <g id="long__list" stroke="#000">
                     <path stroke-width="2" d="M450.212 875.5h50.01M555.212 875h50.01M450.212 883h50.01M555.212 882.5h50.01M450.212 891h50.01M555.212 890.5h50.01"/>
                     <path d="M431.212 308.589h204.293M430.212 365.434h186.627M475.997 337.24h133.206" stroke-width="3"/>
@@ -38,15 +38,17 @@
                     <rect x="287.5" y="370.5" width="77" height="39" rx="3.5" stroke-width="3"/>
                     <path d="M329.421 390h23.158M286 285.5h65" stroke-width="3"/>
                 </g>
-                <path stroke="#000" stroke-width="3" d="M377 315.5h262"/>
-                <g stroke="#000" stroke-width="3">
-                    <path d="M406 385.5h211M406 448.5h140m25 0h47"/>
-                    <rect x="407.5" y="405.5" width="88" height="22" rx="3.5"/>
-                    <rect x="513.5" y="405.5" width="88" height="22" rx="3.5"/>
-                </g>
-                <g stroke="#000" stroke-width="3">
-                    <rect x="407.5" y="329.5" width="189" height="36" rx="3.5"/>
-                    <path d="M425 348.5h148"/>
+                <g id="right__content">
+                    <path stroke="#000" stroke-width="3" d="M377 315.5h262"/>
+                    <g stroke="#000" stroke-width="3">
+                        <path d="M406 385.5h211M406 448.5h140m25 0h47"/>
+                        <rect x="407.5" y="405.5" width="88" height="22" rx="3.5"/>
+                        <rect x="513.5" y="405.5" width="88" height="22" rx="3.5"/>
+                    </g>
+                    <g stroke="#000" stroke-width="3">
+                        <rect x="407.5" y="329.5" width="189" height="36" rx="3.5"/>
+                        <path d="M425 348.5h148"/>
+                    </g>
                 </g>
 
                 <!-- left list small  -->
@@ -73,14 +75,14 @@
                 </g>
                 <!-- computer container  -->
                 <g id="computer">
-                    <path fill="#7393DF" stroke="#A68A8A" stroke-width="2" d="M417 488h79v97h-79z"/>
-                    <path d="M365 588c0-6.075 4.925-11 11-11h160c6.075 0 11 4.925 11 11v6H365v-6z" fill="#7393DF" stroke="#A68A8A" stroke-width="2"/>
+                    <path class="stand__2" fill="#7393DF" stroke="#A68A8A" stroke-width="2" d="M417 488h79v97h-79z"/>
+                    <path class="stand__1" d="M365 588c0-6.075 4.925-11 11-11h160c6.075 0 11 4.925 11 11v6H365v-6z" fill="#7393DF" stroke="#A68A8A" stroke-width="2"/>
                     <mask id="a" fill="#fff">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M267 250a8 8 0 00-8 8v220.459h393V258a8 8 0 00-8-8H267zm9.962 13.141a3 3 0 00-3 3v195.166a3 3 0 003 3h358.074a3 3 0 003-3V266.141c0-1.656-1.344-3-3.001-3H276.962z"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M267 250a8 8 0 00-8 8v220.459h393V258a8 8 0 00-8-8H267zm9.962 13.141a3 3 0 00-3 3v195.166a3 3 0 003 3h358.074a3 3 0 003-3V266.141c0-1.656-1.344-3-3.001-3H276.962z"/>
                     </mask>
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M267 250a8 8 0 00-8 8v220.459h393V258a8 8 0 00-8-8H267zm9.962 13.141a3 3 0 00-3 3v195.166a3 3 0 003 3h358.074a3 3 0 003-3V266.141c0-1.656-1.344-3-3.001-3H276.962z" fill="#0AE0E0"/>
-                    <path d="M259 478.459h-2v2h2v-2zm393 0v2h2v-2h-2zM261 258a6 6 0 016-6v-4c-5.523 0-10 4.477-10 10h4zm0 220.459V258h-4v220.459h4zm391-2H259v4h393v-4zM650 258v220.459h4V258h-4zm-6-6a6 6 0 016 6h4c0-5.523-4.477-10-10-10v4zm-377 0h377v-4H267v4zm8.962 14.141a1 1 0 011-1v-4a5 5 0 00-5 5h4zm0 195.166V266.141h-4v195.166h4zm1 1a1 1 0 01-1-1h-4a5 5 0 005 5v-4zm358.074 0H276.962v4h358.074v-4zm1-1a1 1 0 01-1 1v4a5 5 0 005-5h-4zm0-195.166v195.166h4V266.141h-4zm-1.001-1a1 1 0 011.001 1h4a5 5 0 00-5.001-5v4zm-358.073 0h358.073v-4H276.962v4z" fill="#212837" fill-opacity=".11" mask="url(#a)"/>
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M267 250a8 8 0 00-8 8v271a8 8 0 008 8h378a8 8 0 008-8V258a8 8 0 00-8-8H267zm2 2a8 8 0 00-8 8v209a8 8 0 008 8h374a8 8 0 008-8V260a8 8 0 00-8-8H269z" fill="#7393DF"/>
+                    <path class="border" fill-rule="evenodd" clip-rule="evenodd" d="M267 250a8 8 0 00-8 8v220.459h393V258a8 8 0 00-8-8H267zm9.962 13.141a3 3 0 00-3 3v195.166a3 3 0 003 3h358.074a3 3 0 003-3V266.141c0-1.656-1.344-3-3.001-3H276.962z" fill="#0AE0E0"/>
+                    <path class="mask" d="M259 478.459h-2v2h2v-2zm393 0v2h2v-2h-2zM261 258a6 6 0 016-6v-4c-5.523 0-10 4.477-10 10h4zm0 220.459V258h-4v220.459h4zm391-2H259v4h393v-4zM650 258v220.459h4V258h-4zm-6-6a6 6 0 016 6h4c0-5.523-4.477-10-10-10v4zm-377 0h377v-4H267v4zm8.962 14.141a1 1 0 011-1v-4a5 5 0 00-5 5h4zm0 195.166V266.141h-4v195.166h4zm1 1a1 1 0 01-1-1h-4a5 5 0 005 5v-4zm358.074 0H276.962v4h358.074v-4zm1-1a1 1 0 01-1 1v4a5 5 0 005-5h-4zm0-195.166v195.166h4V266.141h-4zm-1.001-1a1 1 0 011.001 1h4a5 5 0 00-5.001-5v4zm-358.073 0h358.073v-4H276.962v4z" fill="#212837" fill-opacity=".11" mask="url(#a)"/>
+                    <path class="frame" fill-rule="evenodd" clip-rule="evenodd" d="M267 250a8 8 0 00-8 8v271a8 8 0 008 8h378a8 8 0 008-8V258a8 8 0 00-8-8H267zm2 2a8 8 0 00-8 8v209a8 8 0 008 8h374a8 8 0 008-8V260a8 8 0 00-8-8H269z" fill="#7393DF"/>
                 </g>
                 <path id="bottom__line" stroke="#56227C" stroke-width="5" stroke-linecap="round" d="M89.5 596.5h733.006"/>
                 <g id="intro__line" stroke="#56227C" stroke-width="5">
@@ -111,9 +113,9 @@
                     <circle cx="233.5" cy="71.5" r="15.5" fill="#70D6FF"/>
                 </g>
                 <g id="screen__cover">
-                    <rect x="273" y="263" width="366" height="202" rx="5" fill="#FADDE1"/>
-                    <rect x="273" y="262" width="366" height="163" rx="5" fill="#FFC4D6"/>
-                    <rect x="273" y="262" width="366" height="123" rx="5" fill="#FF97B7"/>
+                    <rect id="one" x="273" y="263" width="366" height="202" rx="5" fill="#FADDE1"/>
+                    <rect id="two" x="273" y="262" width="366" height="163" rx="5" fill="#FFC4D6"/>
+                    <rect id="three" x="273" y="262" width="366" height="123" rx="5" fill="#FF97B7"/>
                 </g>
                 </svg>
             </div>

@@ -15,7 +15,7 @@ section .container #long__list {
   display: none;
 }
 section .container #screen__cover {
-  display: none;
+  opacity: 0;
 }
 section .container #big__list {
   display: none;
@@ -27,19 +27,39 @@ section .container #half__circle {
   display: none;
 }
 section .container #intro__line {
-  display: none;
+  stroke-dasharray: 125;
+  stroke-dashoffset: 0;
+  transform: translateX(100%);
 }
 section .container #bottom__line {
-  display: none;
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 0;
 }
 section .container #mouse {
   display: none;
 }
 section .container #left__content {
-  display: none;
+  opacity: 1;
+  stroke: #ce4257;
 }
 section .container #left__side__small {
   display: none;
+}
+section .container #right__content {
+  opacity: 0;
+}
+section .container #computer .border {
+  stroke: #0ae0e0;
+  stroke-width: 2.5px;
+  stroke-dasharray: 1250;
+  stroke-dashoffset: 0;
+  fill: transparent;
+}
+section .container #computer .mask {
+  display: none;
+}
+section .container #screen__bg {
+  opacity: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
