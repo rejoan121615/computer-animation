@@ -338,9 +338,9 @@ contentList
     //         },
     //     })
 
-    //     .to("#secound__content", {
-    //         opacity: 0.15,
-    //     })
+    .to("#secound__content", {
+        opacity: 0.15,
+    })
 
     .fromTo(
         "#world",
@@ -362,6 +362,7 @@ contentList
     .to("#mouse", {
         x: -310,
         y: 100,
+        duration: 1.2,
         onComplete: function () {
             mouseClick();
         },
@@ -373,6 +374,22 @@ contentList
         scale: 0.7,
         duration: 1.2,
         delay: 0.8,
+    })
+    .to("#secound__content", {
+        opacity: 1,
+        duration: 1,
+    })
+    .to("#mouse", {
+        x: "+=155",
+        y: "-=55",
+        duration: 1,
+        onComplete: function () {
+            mouseClick();
+        },
+    })
+    .to("#secound__content", {
+        opacity: 0.15,
+        duration: 0.7,
     })
 
     .fromTo(
@@ -388,12 +405,12 @@ contentList
             x: 0,
             y: 0,
             scale: 1,
-            delay: 0.8,
+            delay: 1.1,
             duration: 1.2,
         }
     )
     .to("#mouse", {
-        x: -310,
+        x: -250,
         y: 100,
         onComplete: function () {
             mouseClick();
@@ -407,7 +424,21 @@ contentList
         duration: 1.2,
         delay: 0.8,
     })
-
+    .to("#secound__content", {
+        opacity: 1,
+        duration: 1,
+    })
+    .to("#mouse", {
+        x: "+=50",
+        duration: 0.5,
+        onComplete: function () {
+            mouseClick();
+        },
+    })
+    .to("#secound__content", {
+        opacity: 0.15,
+        duration: 0.7,
+    })
     .fromTo(
         "#massage__list",
         {
@@ -421,13 +452,15 @@ contentList
             x: 0,
             y: 0,
             scale: 1,
-            delay: 0.8,
+            delay: 1.1,
             duration: 1.2,
         }
     )
+
     .to("#mouse", {
         x: -310,
         y: 100,
+        duration: 0.8,
         onComplete: function () {
             mouseClick();
         },
@@ -440,7 +473,11 @@ contentList
         duration: 1.2,
         delay: 0.8,
     })
-
+    .to("#mouse", {
+        x: "100",
+        y: "-50",
+        duration: 1.8,
+    })
     .to("#secound__content", {
         opacity: 1,
         duration: 1.5,
