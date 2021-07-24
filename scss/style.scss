@@ -82,5 +82,11 @@ section {
          #big__list {
              opacity: 1;
          }
+         #secound__content {
+             opacity: 0;
+         }
+         #secound__content g line, #secound__content g rect, #secound__content g circle, #secound__content g path {
+             opacity: 0;
+         }
     }
 }

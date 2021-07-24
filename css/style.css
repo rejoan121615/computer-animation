@@ -61,5 +61,11 @@ section .container #secound__content, section .container #world, section .contai
 section .container #big__list {
   opacity: 1;
 }
+section .container #secound__content {
+  opacity: 0;
+}
+section .container #secound__content g line, section .container #secound__content g rect, section .container #secound__content g circle, section .container #secound__content g path {
+  opacity: 0;
+}
 
 /*# sourceMappingURL=style.css.map */

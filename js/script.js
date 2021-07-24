@@ -99,13 +99,12 @@ tl.from("#intro__line", {
             scale: 1,
             x: 0,
             y: 0,
-            duration: 1.3,
+            duration: 2.5,
         },
         "-=0"
-);
-    
+    );
 
-// mouse click 
+// mouse click
 function mouseClick() {
     gsap.to("#mouse", {
         scale: 0.8,
@@ -118,7 +117,38 @@ function mouseClick() {
     });
 }
 
-// secound timeline 
+// mouse timeline
+const mouseTimeline = gsap.timeline();
+
+mouseTimeline
+    .to("#mouse", {
+        opacity: 1,
+        duration: 0.5,
+        delay: 7,
+    })
+    .to("#mouse", {
+        x: -230,
+        y: 100,
+        duration: 2,
+        delay: 0.8,
+        onComplete: function () {
+            mouseClick();
+        },
+    })
+    .to("#mouse", {
+        x: "-=30",
+        y: "+=15",
+        duration: 0.8,
+        delay: 2.2,
+        onComplete: function () {
+            mouseClick();
+            setTimeout(() => {
+                secounTl.reverse();
+            }, 1000);
+        },
+    });
+
+// secound timeline
 
 const secounTl = gsap.timeline();
 secounTl
@@ -135,32 +165,57 @@ secounTl
             duration: 1,
             delay: 6,
         },
-        "-=0.5"
+        "-=0"
     )
-    .to("#mouse", {
-        opacity: 1,
-        duration: 0.5,
-    })
-    .to("#mouse", {
-        x: -230,
-        y: 100,
-        duration: 1.5,
-        onComplete: function () {
-            mouseClick();
-        },
-    })
     .to("#content__list", {
         opacity: 0.4,
-        duration: 0.5,
+        duration: 1,
+        delay: 2,
     })
     .from("#big__list", {
         x: -50,
         y: 50,
         scale: 0.7,
         opacity: 0,
-    })
-    .to("#mouse", {
-        x: "-=30",
-        y: "+=15",
-        duration: 0.4,
+        onComplete: function () {
+            secListTl()
+        }
     });
+
+// third timeline
+let secoundListTimeline = gsap.timeline();
+
+function secListTl() {
+    secoundListTimeline
+        .to("#secound__content", {
+            opacity: 1,
+            delay: 9,
+            duration: 1.8,
+        })
+        .from("#secound__content rect", {
+            width: 0,
+            height: 0,
+            onComplete: function () {
+                gsap.fromTo(
+                    gsap.utils.toArray([
+                        "#secound__content g line",
+                        "#secound__content g rect",
+                        "#secound__content g circle",
+                        "#secound__content g path",
+                    ]),
+                    {
+                        opacity: 0,
+                        y: 25,
+                    },
+                    {
+                        opacity: 1,
+                        y: 0,
+                        duration: 2,
+                        stagger: {
+                            amount: 1.2,
+                        },
+                    }
+                );
+            }
+        });
+}
