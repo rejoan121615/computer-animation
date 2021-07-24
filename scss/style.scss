@@ -9,6 +9,11 @@ section {
     .container {
         width: 50%;
         margin: 75px auto 0px auto;
+        // svg element
+        #svg {
+            overflow: visible;
+            width: 100%;
+        }
         // long list
         #long__list {
             display: none;
@@ -26,7 +31,7 @@ section {
         #intro__line {
             stroke-dasharray: 125;
             stroke-dashoffset: 0;
-            transform: translateX(100%);
+            transform: translateX(125%);
         }
         // bottom line
         #bottom__line {
@@ -39,7 +44,6 @@ section {
         #left__content {
             opacity: 1;
             stroke: #ce4257;
-
         }
         // left list small
         #left__side__small {
@@ -86,6 +90,9 @@ section {
             opacity: 0;
         }
         #secound__content #long__line {
+            opacity: 0;
+        }
+        #bubble circle {
             opacity: 0;
         }
     }

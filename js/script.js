@@ -6,20 +6,30 @@ tl.from("#intro__line", {
     onStart: function () {
         gsap.from("#intro__line", {
             strokeDashoffset: 125,
-            duration: 2,
+            duration: 4,
         });
     },
-    x: -100 + "%",
-    duration: 3,
+    x: -140 + "%",
+    duration: 4,
     delay: 0.3,
 })
+    .from(
+        "#mouse",
+        {
+            scale: 30,
+            duration: 1,
+            x: -500,
+            y: -300,
+        },
+        "<"
+    )
     .from(
         "#bottom__line",
         {
             strokeDashoffset: 1000,
             duration: 3.7,
         },
-        "<"
+        "-=3.4"
     )
     .from(
         "#computer .stand__1",
@@ -75,7 +85,7 @@ tl.from("#intro__line", {
     .to("#screen__cover rect", {
         height: 0,
         stagger: {
-            amount: 1.2,
+            amount: 0.5,
             from: "end",
         },
     })
@@ -100,6 +110,20 @@ tl.from("#intro__line", {
             x: 0,
             y: 0,
             duration: 2.5,
+            onComplete: function () {
+                gsap.fromTo(
+                    "#bubble circle",
+                    { opacity: 0 },
+                    { opacity: 1, duration: 0.5, duration: 4 }
+                );
+                gsap.to("#bubble circle", {
+                    x: "random(-150, 150)",
+                    y: "random(-150, 150)",
+                    repeat: -1,
+                    duration: 10,
+                    repeatRefresh: true,
+                });
+            },
         },
         "-=0"
     );
@@ -185,31 +209,31 @@ function mouseClick() {
 
 // // bubble animation
 
-const getComputerPosition = document
-    .querySelector("#computer")
-    .getClientRects();
-console.log(getComputerPosition);
-gsap.timeline()
-    .fromTo(
-        "#bubble circle",
-        { opacity: 0 },
-        { opacity: 1, duration: 0.5, delay: 7, duration: 3 }
-    )
-    // to("#bubble circle", {
+// const getComputerPosition = document
+//     .querySelector("#computer")
+//     .getClientRects();
+// console.log(getComputerPosition);
+// gsap.timeline()
+//     .fromTo(
+//         "#bubble circle",
+//         { opacity: 0 },
+//         { opacity: 1, duration: 0.5, delay: 7, duration: 3 }
+//     )
+//     // to("#bubble circle", {
 
-    // })
-    .to("#bubble circle", {
-        x: "random(-20, 20)",
-        y: "random(-20, 20)",
-        repeat: -1,
-        duration: 4,
-        repeatRefresh: true,
-    });
+//     // })
+//     .to("#bubble circle", {
+//         x: "random(-150, 150)",
+//         y: "random(-150, 150)",
+//         repeat: -1,
+//         duration: 4,
+//         repeatRefresh: true,
+//     });
 
 // inner content
 setTimeout(() => {
     computerContent();
-}, 9000);
+}, 6300);
 function computerContent() {
     const contentList = gsap.timeline();
     contentList
@@ -359,6 +383,7 @@ function computerContent() {
 
         .to("#secound__content", {
             opacity: 0.15,
+            delay: 0.8,
         })
 
         .fromTo(
@@ -408,7 +433,7 @@ function computerContent() {
         })
         .to("#secound__content", {
             opacity: 0.15,
-            duration: 0.7,
+            duration: 0.8,
         })
 
         .fromTo(
@@ -456,7 +481,7 @@ function computerContent() {
         })
         .to("#secound__content", {
             opacity: 0.15,
-            duration: 0.7,
+            duration: 0.8,
         })
         .fromTo(
             "#massage__list",

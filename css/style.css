@@ -11,6 +11,10 @@ section .container {
   width: 50%;
   margin: 75px auto 0px auto;
 }
+section .container #svg {
+  overflow: visible;
+  width: 100%;
+}
 section .container #long__list {
   display: none;
 }
@@ -23,7 +27,7 @@ section .container #half__circle {
 section .container #intro__line {
   stroke-dasharray: 125;
   stroke-dashoffset: 0;
-  transform: translateX(100%);
+  transform: translateX(125%);
 }
 section .container #bottom__line {
   stroke-dasharray: 1000;
@@ -68,6 +72,9 @@ section .container #secound__content {
   opacity: 0;
 }
 section .container #secound__content #long__line {
+  opacity: 0;
+}
+section .container #bubble circle {
   opacity: 0;
 }
 
