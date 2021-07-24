@@ -15,7 +15,7 @@ section {
         }
         // screen cover
         #screen__cover {
-            // display: none;
+            display: none;
             opacity: 0;
         }
         // bubble items
@@ -72,16 +72,15 @@ section {
             opacity: 0;
         }
         // content list 
-        #secound__content, #world, #forward__list, #massage__list, #mouse {
+        #secound__content, #world, #forward__list, #massage__list {
             opacity: 0;
         }
         // big list 
          #big__list {
-             opacity: 1;
-            //  display: none;
+             opacity: 0;
          }
          #content__list {
-            //  display: none;
+             display: none;
          }
          #secound__content {
              opacity: 0;
