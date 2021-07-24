@@ -17,9 +17,6 @@ section .container #long__list {
 section .container #screen__cover {
   opacity: 0;
 }
-section .container #bubble {
-  display: none;
-}
 section .container #half__circle {
   opacity: 0;
 }
@@ -64,7 +61,7 @@ section .container #big__list {
 section .container #secound__content {
   opacity: 0;
 }
-section .container #secound__content g line, section .container #secound__content g rect, section .container #secound__content g circle, section .container #secound__content g path {
+section .container #secound__content #long__line {
   opacity: 0;
 }
 

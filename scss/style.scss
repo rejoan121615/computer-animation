@@ -19,9 +19,6 @@ section {
             opacity: 0;
         }
         // bubble items
-        #bubble {
-            display: none;
-        }
         // half circle
         #half__circle {
             opacity: 0;
@@ -81,11 +78,15 @@ section {
         // big list 
          #big__list {
              opacity: 1;
+            //  display: none;
+         }
+         #content__list {
+            //  display: none;
          }
          #secound__content {
              opacity: 0;
          }
-         #secound__content g line, #secound__content g rect, #secound__content g circle, #secound__content g path {
+         #secound__content #long__line {
              opacity: 0;
          }
     }

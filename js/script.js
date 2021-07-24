@@ -1,5 +1,7 @@
 "use strict";
 
+
+
 const tl = gsap.timeline();
 
 tl.from("#intro__line", {
@@ -75,7 +77,7 @@ tl.from("#intro__line", {
     .to("#screen__cover rect", {
         height: 0,
         stagger: {
-            amount: 0.6,
+            amount: 1.2,
             from: "end",
         },
     })
@@ -117,7 +119,7 @@ function mouseClick() {
     });
 }
 
-// mouse timeline
+// // mouse timeline
 const mouseTimeline = gsap.timeline();
 
 mouseTimeline
@@ -148,7 +150,7 @@ mouseTimeline
         },
     });
 
-// secound timeline
+// // secound timeline
 
 const secounTl = gsap.timeline();
 secounTl
@@ -178,18 +180,19 @@ secounTl
         scale: 0.7,
         opacity: 0,
         onComplete: function () {
-            secListTl()
-        }
+            // secListTl();
+        },
     });
 
 // third timeline
 let secoundListTimeline = gsap.timeline();
 
 function secListTl() {
+    console.log("working");
     secoundListTimeline
         .to("#secound__content", {
             opacity: 1,
-            delay: 9,
+            delay: 20,
             duration: 1.8,
         })
         .from("#secound__content rect", {
@@ -216,6 +219,148 @@ function secListTl() {
                         },
                     }
                 );
-            }
+            },
         });
 }
+
+// secListTl();
+
+gsap.timeline()
+    .fromTo(
+        "#secound__content",
+        {
+            opacity: 0,
+            scale: 0,
+        },
+        {
+            opacity: 1,
+            scale: 1,
+            duration: 1.5,
+            delay: 20,
+        }
+    )
+    .from("#secound__content #list__container #list", {
+        opacity: 0,
+        y: 25,
+        stagger: {
+            each: 0.3,
+        },
+    })
+    .fromTo(
+        gsap.utils.toArray([
+            "#secound__content #circle__container #circle",
+            "#secound__content #fight",
+        ]),
+        {
+            opacity: 0,
+            scale: 0,
+        },
+        {
+            opacity: 1,
+            scale: 1,
+            duration: 1.2,
+        },
+        "<"
+    )
+    .fromTo(
+        "#secound__content #four__corner #element",
+        {
+            strokeDashoffset: 440,
+            strokeDasharray: 440,
+        },
+        {
+            strokeDashoffset: 0,
+            duration: 1.6,
+            onComplete: function () {},
+        },
+        "<"
+    )
+    .fromTo(
+        "#secound__content #long__line",
+        {
+            y: 10,
+            opacity: 0,
+        },
+        {
+            opacity: 1,
+            y: 0,
+            onComplete: function () {
+                gsap.to("#mouse", {
+                    x: "+=20",
+                    y: "-=45",
+                    onComplete: function () {
+                        // mouseClick();
+                    },
+                });
+                // secContentCard("#world", "-50", "50", 1500, 0.7);
+                // secContentCard("#forward__list", "-80", "10", 1500, 9);
+                // secContentCard("#massage__list", "100", "10", 1500, 16);
+                fullCardAnimation();
+            },
+        }
+    );
+
+// movie mouse automatically
+function moveMouse() {
+    const mousePosition = document.querySelector("#mouse").getClientRects();
+    console.log(mousePosition);
+}
+
+console.log(moveMouse());
+// secound content opacity
+
+function fullCardAnimation() {
+    function secContentCard(card, posX, posY, reverseDealy, delayTime) {
+        let cardTl = gsap
+            .timeline()
+            .to("#secound__content", {
+                opacity: 0.15,
+                delay: delayTime,
+            })
+            .fromTo(
+                card,
+                {
+                    opacity: 0,
+                    x: posX,
+                    y: posY,
+                    scale: 0.5,
+                },
+                {
+                    opacity: 1,
+                    x: 0,
+                    y: 0,
+                    scale: 1,
+                    duration: 0.7,
+                    delay: 0.4,
+                    onComplete: function () {
+                        let mouse = document.querySelector("#mouse");
+
+                        gsap.to(mouse, {});
+                        setTimeout(() => {
+                            cardTl.reverse();
+                        }, reverseDealy);
+                    },
+                }
+            );
+    }
+    // call all card Animation
+    secContentCard("#world", "-50", "50", 1500, 0.7);
+    secContentCard("#forward__list", "-80", "10", 1500, 9);
+    secContentCard("#massage__list", "100", "10", 1500, 16);
+}
+
+// bubble animation
+
+
+const getComputerPosition = document.querySelector("#computer").getClientRects();
+console.log(getComputerPosition);
+gsap.timeline()
+    .fromTo("#bubble circle", {opacity: 0}, { opacity: 1, duration: 0.5 })
+    .to("#bubble circle", {
+        x: 'random(-50, 50)',
+        y: 'random(-50, 50)',
+        repeat: -1,
+        duration: 10,
+        repeatRefresh: true
+    });
+
