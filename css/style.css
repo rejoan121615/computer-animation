@@ -15,7 +15,6 @@ section .container #long__list {
   display: none;
 }
 section .container #screen__cover {
-  display: none;
   opacity: 0;
 }
 section .container #half__circle {
@@ -53,14 +52,17 @@ section .container #computer .mask {
 section .container #screen__bg {
   opacity: 0;
 }
-section .container #secound__content, section .container #world, section .container #forward__list, section .container #massage__list {
+section .container #secound__content,
+section .container #world,
+section .container #forward__list,
+section .container #massage__list {
   opacity: 0;
 }
 section .container #big__list {
   opacity: 0;
 }
-section .container #content__list {
-  display: none;
+section .container #content__list .list {
+  opacity: 0;
 }
 section .container #secound__content {
   opacity: 0;

@@ -15,7 +15,6 @@ section {
         }
         // screen cover
         #screen__cover {
-            display: none;
             opacity: 0;
         }
         // bubble items
@@ -35,14 +34,12 @@ section {
             stroke-dashoffset: 0;
         }
         // mouse
-        
+
         // left content
         #left__content {
             opacity: 1;
             stroke: #ce4257;
-            rect {
 
-            }
         }
         // left list small
         #left__side__small {
@@ -71,22 +68,25 @@ section {
         #screen__bg {
             opacity: 0;
         }
-        // content list 
-        #secound__content, #world, #forward__list, #massage__list {
+        // content list
+        #secound__content,
+        #world,
+        #forward__list,
+        #massage__list {
             opacity: 0;
         }
-        // big list 
-         #big__list {
-             opacity: 0;
-         }
-         #content__list {
-             display: none;
-         }
-         #secound__content {
-             opacity: 0;
-         }
-         #secound__content #long__line {
-             opacity: 0;
-         }
+        // big list
+        #big__list {
+            opacity: 0;
+        }
+        #content__list .list {
+            opacity: 0;
+        }
+        #secound__content {
+            opacity: 0;
+        }
+        #secound__content #long__line {
+            opacity: 0;
+        }
     }
 }
